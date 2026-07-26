@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>David Freire — DevOps Engineer (PT-BR)</title>
+<style>
+  :root{
+    --accent:#1f4e79;
+    --accent-soft:#e8eef5;
+    --ink:#222222;
+    --muted:#555555;
+    --line:#d9dee3;
+  }
+  @page{ margin:1.4cm 1.6cm; }
+  *{ box-sizing:border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    font-family:"Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    color:var(--ink);
+    font-size:10.4pt;
+    line-height:1.42;
+  }
+  .wrap{ max-width:760px; margin:0 auto; }
+
+  /* Header */
+  header{ border-bottom:2.5px solid var(--accent); padding-bottom:9px; margin-bottom:12px; }
+  h1{ font-size:23pt; margin:0; letter-spacing:.3px; color:#14233a; }
+  .role{ font-size:11.5pt; color:var(--accent); font-weight:700; margin-top:2px; letter-spacing:.4px; }
+  .contact{ font-size:9.3pt; color:var(--muted); margin-top:6px; }
+  .contact a{ color:var(--muted); text-decoration:none; }
+  .job-org a, .loc a{ color:var(--accent); text-decoration:none; }
+  .job-org a:hover, .loc a:hover{ text-decoration:underline; }
+
+  /* Section titles */
+  h2{
+    font-size:10.6pt; text-transform:uppercase; letter-spacing:1px;
+    color:var(--accent); margin:14px 0 6px; padding-bottom:3px;
+    border-bottom:1px solid var(--line);
+  }
+  .summary{ margin:0; }
+
+  /* Experience */
+  .job{ margin-bottom:9px; page-break-inside:avoid; }
+  .job-head{ display:flex; justify-content:space-between; gap:12px; align-items:baseline; }
+  .job-title{ font-weight:700; font-size:10.6pt; }
+  .job-org{ color:var(--ink); }
+  .job-dates{ font-size:9.2pt; color:var(--muted); white-space:nowrap; font-style:italic; }
+  .loc{ font-size:9.2pt; color:var(--muted); }
+  .job-url{ font-size:10.4pt; color:var(--muted); margin-top:2px; }
+  ul{ margin:4px 0 4px 0; padding-left:17px; }
+  li{ margin-bottom:2.5px; }
+
+  /* Skills */
+  .skills{ page-break-inside:avoid; }
+  .skill-line{ margin-bottom:3px; }
+  .skill-cat{ font-weight:700; color:#14233a; }
+
+  .langs{ page-break-inside:avoid; }
+
+  .footer-note{ margin-top:8px; font-size:8.3pt; color:var(--ink); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>David Freire</h1>
+    <div class="role">Desenvolvedor Full-Stack | DevOps</div>
+    <div class="contact">
+      Região Metropolitana de Florianópolis – SC, Brasil &nbsp;·&nbsp; +55 48 99991-6310<br>
+      manfreglobal@gmail.com &nbsp;·&nbsp; github.com/dfreire052
+    </div>
+  </header>
+
+  <h2>Resumo</h2>
+  <p class="summary">
+    Engenheiro de Telecomunicações com experiência prática em desenvolvimento de software (Angular, Python,
+    Django), aplicações web e, mais recentemente, <strong>DevOps</strong> — containerização com
+    <strong>Docker</strong>, deploys em VPS Linux via <strong>Coolify</strong>, observabilidade com
+    Grafana Cloud (Prometheus, Grafana, Loki) e versionamento Git/GitHub. Em consolidação na área de DevOps,
+    com base técnica em engenharia e desenvolvimento. Fluente em espanhol, inglês avançado e português em
+    desenvolvimento.
+  </p>
+
+  <h2>Experiência Profissional</h2>
+
+  <div class="job">
+    <div class="job-head">
+      <span><span class="job-title">Desenvolvedor Full-Stack</span> &middot; <span class="job-org">Inteligencia Natural (Argentina)</span></span>
+      <span class="job-dates">Ago/2025 – Presente</span>
+    </div>
+    <div class="loc">Remoto</div>
+    <div class="job-url">URL da empresa: <a href="https://inteligencianatural.com.ar/" target="_blank" rel="noopener">inteligencianatural.com.ar</a></div>
+    <ul>
+      <li>Desenvolvimento full-stack de chatbot: frontend em Angular e backend em Python/Django.</li>
+      <li>Gerenciamento de deploys e infraestrutura em VPS Linux (Ubuntu) via <strong>Coolify</strong>, com SSL e proxy reverso automatizados.</li>
+      <li>Containerização de serviços com <strong>Docker</strong>, incluindo criação e manutenção de Dockerfiles.</li>
+      <li>Gestão de repositórios e fluxo de deploys via Git/GitHub.</li>
+      <li>Monitoramento e observabilidade da infraestrutura e aplicações com Grafana Cloud (Grafana, Prometheus, Loki).</li>
+      <li>Suporte a bancos de dados <strong>PostgreSQL</strong>, MySQL e Redis.</li>
+      <li>Validação funcional do fluxo da aplicação: verificação da integridade dos registros no banco PostgreSQL, identificação e reporte de inconsistências à equipe de desenvolvimento e revisão de relatórios de usuários.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span><span class="job-title">Desenvolvedor de Software</span> &middot; <span class="job-org">Instituição Pública</span></span>
+      <span class="job-dates">2023 – 2025</span>
+    </div>
+    <div class="loc">Cuba</div>
+    <ul>
+      <li>Desenvolvimento de software com <strong>Python</strong> em projeto de reconhecimento de imagem (visão computacional).</li>
+      <li>Versionamento de código e colaboração em equipe via <strong>GitLab</strong>.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span><span class="job-title">Data Loading Team Leader</span> &middot; <span class="job-org">Travel Direct</span></span>
+      <span class="job-dates">2019 – 2023</span>
+    </div>
+    <div class="loc">Havana, Cuba</div>
+    <ul>
+      <li>Liderança da equipe de carregamento de dados no sistema de reservas da empresa.</li>
+      <li>Configuração e operação do sistema de reservas.</li>
+      <li>Aprendizado e prática avançada de inglês no ambiente de trabalho.</li>
+    </ul>
+  </div>
+
+  <div class="job">
+    <div class="job-head">
+      <span><span class="job-title">Engenheiro de Software — Estação Terrena Satelital</span> &middot; <span class="job-org">InSTEC – Universidade de La Habana</span></span>
+      <span class="job-dates">2017 – 2018</span>
+    </div>
+    <div class="loc">Cuba</div>
+    <ul>
+      <li>Desenvolvimento do software da estação terrena do projeto de satélite universitário CubaSat.</li>
+      <li>Programação de módulos internos e ferramentas de processamento de dados para registro de telemetria.</li>
+      <li>Manutenção de configurações de sistema e testes de componentes de software.</li>
+    </ul>
+  </div>
+
+  <h2>Formação Acadêmica</h2>
+  <div class="job">
+    <div class="job-head">
+      <span><span class="job-title">Bacharelado em Engenharia de Telecomunicações e Eletrônica</span></span>
+      <span class="job-dates">2011 – 2016</span>
+    </div>
+    <div class="loc">CUJAE — Universidade Tecnológica de La Habana, Cuba</div>
+    <ul>
+      <li>Trabalho de conclusão: design eletrônico e desenvolvimento de módulos de software para o projeto CubaSat.</li>
+      <li><a href="https://drive.google.com/file/d/1BoDyk5OW4EwNVLBJIb3lx298MDJK6WS8/view?usp=sharing" target="_blank" rel="noopener">Ver diploma original (ES)</a></li>
+    </ul>
+    <div class="footer-note">Nota: Documento físico em trâmite de envio consular para tradução juramentada no Brasil.</div>
+  </div>
+
+  <h2 class="skills">Competências</h2>
+  <div class="skill-line"><span class="skill-cat">DevOps / Infraestrutura:</span> Docker, Dockerfiles, Coolify, CI/CD, VPS Hostinger, Linux/Ubuntu, Git/GitHub</div>
+  <div class="skill-line"><span class="skill-cat">Observabilidade:</span> Grafana Cloud, Grafana, Prometheus, Loki</div>
+  <div class="skill-line"><span class="skill-cat">Bancos de dados:</span> PostgreSQL, MySQL, Redis</div>
+  <div class="skill-line"><span class="skill-cat">Backend:</span> Python, Django</div>
+  <div class="skill-line"><span class="skill-cat">Frontend:</span> Angular, JavaScript, HTML, CSS</div>
+  <div class="skill-line"><span class="skill-cat">Familiaridade:</span> Kubernetes, OpenShift</div>
+
+  <h2 class="langs">Idiomas</h2>
+  <div class="skill-line"><span class="skill-cat">Espanhol</span> — Nativo</div>
+  <div class="skill-line"><span class="skill-cat">Inglês</span> — Avançado</div>
+  <div class="skill-line"><span class="skill-cat">Português</span> — Intermediário</div>
+
+</div>
+</body>
+</html>

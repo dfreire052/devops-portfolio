@@ -1,0 +1,20 @@
+# ===== Secrets — NEVER commit =====
+*.env
+.env*
+*secret*
+*credentials*
+*.pem
+*.key
+github-pat*.txt
+pull-secret*.txt
+firebase*.json
+
+# ===== CV outputs (kept locally, not part of the repo) =====
+*.pdf
+David_Freire_CV_*.html
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

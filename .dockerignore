@@ -1,0 +1,8 @@
+# Files excluded from the Docker build context to keep the image small.
+.git
+.github
+*.md
+*.pdf
+David_Freire_CV_*.html
+node_modules/
+.env*
