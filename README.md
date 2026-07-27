@@ -1,5 +1,8 @@
 # David Freire — DevOps Portfolio
 
+![CI](https://github.com/dfreire052/devops-portfolio/actions/workflows/publish.yml/badge.svg)
+![Docker Image](https://img.shields.io/badge/docker%20image-ghcr.io-blue)
+
 Portfolio pessoal e projeto prático de DevOps: um site estático (currículo web)
 empacotado em uma imagem Docker e publicado automaticamente via CI/CD no GitHub
 Container Registry, com pipeline para deploy posterior em servidor na nuvem.
@@ -17,7 +20,7 @@ servido é o currículo web do autor.
 ### Stack atual (Fase 0–1)
 - **Container:** Docker (imagem `nginx:alpine`)
 - **CI/CD:** GitHub Actions (build + push para o GHCR)
-- **Registry:** GitHub Container Registry (`ghcr.io/dfreire052/devops-portfolio`)
+- **Registry:** [`ghcr.io/dfreire052/devops-portfolio:latest`](https://github.com/dfreire052/devops-portfolio/pkgs/container/devops-portfolio)
 - **Web server:** nginx (serve o site + endpoint `/health`)
 
 ### Endpoint de health check
@@ -50,7 +53,7 @@ Container Registry, with a pipeline for later deployment to a cloud server.
 ### Current stack (Phase 0–1)
 - **Container:** Docker (`nginx:alpine` image)
 - **CI/CD:** GitHub Actions (build + push to GHCR)
-- **Registry:** GitHub Container Registry (`ghcr.io/dfreire052/devops-portfolio`)
+- **Registry:** [`ghcr.io/dfreire052/devops-portfolio:latest`](https://github.com/dfreire052/devops-portfolio/pkgs/container/devops-portfolio)
 - **Web server:** nginx (serves the site + `/health` endpoint)
 
 ### Run locally
